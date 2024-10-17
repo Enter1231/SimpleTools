@@ -24,7 +24,7 @@
 示例：将位于E:\images 的图像调整为宽度500的图像
 ```
 cd
-python .\SimpleTools\Size\resize.py -path E:\images -size 500
+python .\SimpleTools\Size\resize.py -path E:\images -w 500
 ```
 输出图像位置位于输入目录下的\resized文件夹内，本例中位于E:\images\resized
 : 注意，宽度高度不可同时为-1.
