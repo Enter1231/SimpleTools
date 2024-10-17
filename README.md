@@ -9,13 +9,17 @@
 
 位于.\SimpleTools\Size\resize.py内
 
-用于批量调整图像尺寸，文件内包含函数resize()也可对单张图像操作。
+用于批量调整图像尺寸，文件内包含函数resize()也可批量对图像操作。
 
 操作参数有：
 
--path 想要调整的图像的所在目录
+-path 欲调整的图像的所在目录
 
--size 想要调整的目标图像宽度，宽高比锁定
+-save_path 调整结果保存目录,默认为origin，意为保存至欲调整图像目录下的resized文件夹内
+
+-w 或 --width 目标图像宽度，默认500，-1为根据宽度锁定比例
+
+--height (选用)目标图片尺寸高度，默认-1,意为根据高度锁定比例锁定比例
 
 示例：将位于E:\images 的图像调整为宽度500的图像
 ```
@@ -23,6 +27,7 @@ cd
 python .\SimpleTools\Size\resize.py -path E:\images -size 500
 ```
 输出图像位置位于输入目录下的\resized文件夹内，本例中位于E:\images\resized
+: 注意，宽度高度不可同时为-1.
 
 ***
 ### Align - 尺寸对齐
