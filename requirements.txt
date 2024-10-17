@@ -1,0 +1,16 @@
+colorama==0.4.6
+configobj==5.0.9
+develop==0.2.1
+docutils==0.21.2
+nh3==0.2.18
+numpy==2.1.2
+opencv-python==4.10.0.84
+Pygments==2.18.0
+python-hglib==2.6.2
+readme_renderer==44.0
+repo==0.3.0
+ruamel.showoutput==0.1.7
+scipy==1.14.1
+setuptools==75.1.0
+tqdm==4.66.5
+wheel==0.44.0
