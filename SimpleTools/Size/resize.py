@@ -9,7 +9,7 @@ para.add_argument('-path', type=str, dest='path', help='想要调整尺寸的图
 para.add_argument('-save_path', type=str, dest='save_path', default='origin', help='调整后保存到的图片目录,'
                                                                                    'origin为保存到输入目录下的resized文件夹')
 para.add_argument('-w', '--width', type=int, dest='width', default=500, help='调整的图片尺寸宽度，默认500,-1为根据宽度锁定比例')
-para.add_argument('--height', type=int, dest='height', default=-1, help='调整的图片尺寸宽度，默认-1,意为根据高度锁定比例锁定比例')
+para.add_argument('--height', type=int, dest='height', default=-1, help='调整的图片尺寸高度，默认-1,意为根据高度锁定比例锁定比例')
 opt = para.parse_args()
 
 
