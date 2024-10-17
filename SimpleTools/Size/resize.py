@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 para = argparse.ArgumentParser()
 para.add_argument('-path', type=str, dest= 'path', help='想要调整尺寸的图片目录')
-para.add_argument('-Size', type=int, dest= 'Size', default=500, help='调整的图片尺寸宽度，默认500')
+para.add_argument('-size', type=int, dest= 'size', default=500, help='调整的图片尺寸宽度，默认500')
 opt = para.parse_args()
 
 
